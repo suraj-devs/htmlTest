@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laundry Services</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+
+        /* Navbar */
+        .navbar {
+            height: 10vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 60px;
+            background-color: #ffffff;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            font-size: 14px;
+            color: #6b7280;
+        }
+
+        .username {
+            background-color: #e0f2fe;
+            color: #0284c7;
+            padding: 8px 14px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            padding: 0 60px;
+        }
+
+        .hero-left {
+            width: 50%;
+        }
+
+        .hero-left h1 {
+            font-size: 44px;
+            font-weight: 700;
+            color: #374151;
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+
+        .hero-left h1 span {
+            color: #0ea5e9;
+        }
+
+        .hero-left p {
+            font-size: 15px;
+            color: #6b7280;
+            line-height: 1.6;
+            max-width: 450px;
+            margin-bottom: 30px;
+        }
+
+        .hero-left button {
+            padding: 14px 26px;
+            background-color: #0ea5e9;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .hero-left button:hover {
+            background-color: #0284c7;
+        }
+
+        .hero-right {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-right img {
+            width: 380px;
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">Logo</div>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="username">Username</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1>
+                Revitalize Your <br />
+                Clothes with Expert <br />
+                <span>Laundry Services!</span>
+            </h1>
+
+            <p>
+                From premium dry cleaning to swift wash and fold, we deliver care and
+                convenience. Schedule a pickup and rediscover the freshness of your
+                clothes today!
+            </p>
+
+            <button>Book a service today!</button>
+        </div>
+
+        <div class="hero-right">
+            <img src="https://cdn-icons-png.flaticon.com/512/2933/2933821.png"
+                 alt="Laundry Machine">
+        </div>
+    </section>
+
+</body>
+</html>
